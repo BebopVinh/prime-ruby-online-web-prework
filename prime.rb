@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?(int)
-  (int % int == 0 && int / 1 == int)? true : false
+def prime?(x)
+  for i in (2.. i <= x/2)
 end
