@@ -5,7 +5,7 @@ def prime?(x)
   elsif x < 1
     false
   else
-    for i in (2.. i <= x/2)
+    for i in (2.. i < x/2)
       if (x%2 == 0)
         false
         break
