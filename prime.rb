@@ -32,3 +32,4 @@ def prime?(x)
       end
     end
   end
+end
