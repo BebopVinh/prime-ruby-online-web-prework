@@ -27,6 +27,7 @@ def prime?(x)
     while i*i <= x
       if x % i == 0 || x % (i + 2) == 0
         return false
+        break
       else
         return true
       end
