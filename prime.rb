@@ -9,4 +9,5 @@ def prime?(x)
     else
       true
     end
+  end
 end
