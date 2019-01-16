@@ -21,8 +21,8 @@ def prime?(x)
   i = 5
   if x <= 1
     false
-  elsif (x % 2 == 0 || x % 3 == 0)
-    false
+  # elsif (x % 2 == 0 || x % 3 == 0)
+  #   false
   else
     while i*i <= x
       if x % i == 0 || x % (i + 2) == 0
