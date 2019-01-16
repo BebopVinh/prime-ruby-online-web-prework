@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(x)
-  if x = 1
+  if x == 1
     false
   else
     for i in (2.. i <= x/2)
